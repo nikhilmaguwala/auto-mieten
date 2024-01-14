@@ -8,18 +8,7 @@ export const metadata: Metadata = {
     title: 'Auto Mieten',
     description: 'Car rental service',
     icons: {
-        icon: [
-            {
-                media: '(prefers-color-scheme: light)',
-                url: './favicon.ico',
-                href: './favicon.ico',
-            },
-            {
-                media: '(prefers-color-scheme: dark)',
-                url: './favicon.ico',
-                href: './favicon.ico',
-            },
-        ],
+        icon: '/favicon.ico', // /public path
     },
 };
 
