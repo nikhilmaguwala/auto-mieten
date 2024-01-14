@@ -3,10 +3,25 @@ import './globals.css'
 
 import { Navbar, Footer } from '@/components'
 
+// @ts-ignore
 export const metadata: Metadata = {
-  title: 'Auto Mieten',
-  description: 'Discover your next car rental experience on Auto Mieten.',
-}
+    title: 'Auto Mieten',
+    description: 'Car rental service',
+    icons: {
+        icon: [
+            {
+                media: '(prefers-color-scheme: light)',
+                url: './favicon.ico',
+                href: './favicon.ico',
+            },
+            {
+                media: '(prefers-color-scheme: dark)',
+                url: './favicon.ico',
+                href: './favicon.ico',
+            },
+        ],
+    },
+};
 
 export default function RootLayout({
   children,

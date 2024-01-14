@@ -5,6 +5,7 @@ import { fuels, yearsOfProduction } from "@/constants";
 
 import { fetchCars } from "@/utils";
 import {HomeProps} from "@/types";
+import Head from "next/head";
 
 
 export default async function Home({ searchParams }: HomeProps) {
@@ -21,6 +22,11 @@ export default async function Home({ searchParams }: HomeProps) {
 
   return (
       <main className="overflow-hidden">
+          <Head>
+                <title>Car Catalogue</title>
+                <meta name="description" content="Car rental service" />
+                <link rel="icon" href="/static/favicon.ico" />
+          </Head>
           <Hero/>
 
           <div className='mt-12 padding-x padding-y max-width' id='discover'>
