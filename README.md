@@ -3,7 +3,7 @@
 <div align="center">
 <br />
     <a href="https://nikhil-maguwala-dark-3d.netlify.app/" target="_blank">
-      <img src="https://raw.githubusercontent.com/nikhilmaguwala/auto-mieten/main/automieten_banner.png?token=GHSAT0AAAAAACMXOZWRFQZI23AOJHQX357YZNEFWYQ" alt="Project Banner">
+      <img src="https://raw.githubusercontent.com/nikhilmaguwala/auto-mieten/main/automieten_banner.png?token=GHSAT0AAAAAACMXOZWRYKKZ2I2TBLEU5GJMZNEHUUQ" alt="Project Banner">
     </a>
   <br />
 
